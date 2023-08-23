@@ -1,0 +1,26 @@
+.thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+table
+{
+background-color: white;
+font-family: 'Source Serif Pro',
+serif;
+}
+.table thead
+{
+background-color: #8bb88e;
+color: rgb(128, 68, 68);
+font-size: large;
+}
+
+table > tr  :first-of-type(2) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}

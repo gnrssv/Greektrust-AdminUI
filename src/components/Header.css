@@ -1,0 +1,17 @@
+.headline {
+    background-color: #3dbea5;
+    width: 100%;
+    padding-top: 1.5rem;
+    }
+a > first-line ::after {
+    text-decoration-color: #EA215A;
+    text-decoration-thickness: .125em;
+}
+.headings {
+    font-family: "Source Serif Pro", serif !important;
+    color: #abc2ae;
+}
+a > :-moz-first-node {
+    text-decoration-thickness: .25em;
+    text-underline-offset: 1.5px;
+}

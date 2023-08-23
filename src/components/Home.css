@@ -1,0 +1,32 @@
+ .nav#sidebar {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+article.new{
+    flex: 1;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+
+.checkbox {
+    transform: scale(1.08);
+    }
+section[class ~= "details"]{
+    background-size: 16px 16px;
+    padding-right: 19px;
+}
+    .actions {
+    display: flex;
+    justify-content: center;
+    }
+.homebar > first-child {
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+}
+    .parent {
+    font-family: "Source Serif Pro", serif;
+    width: 100%;
+    }

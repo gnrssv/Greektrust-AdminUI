@@ -1,0 +1,38 @@
+section:target {
+    background-color: orange,
+}
+.aside{
+    position:absolute;
+    top:45%;
+    font-size: 22px !important;
+    right:-1.2em;
+}
+.deleteAll {
+    background-color: white !important;
+    display: flex;
+    justify-content: space-around!important;
+    font-size: 1em !important;
+    text-transform: none !important;
+    }
+      
+.deleteAll:hover {
+    cursor: pointer;
+}
+article:has(h1, span.new) {
+    background-color: beige;
+}
+    .footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    }
+
+    a  {
+        flex: 1;
+        text-decoration: none;
+        outline: none;
+        text-align: center;
+        line-height: 3;
+        color: black;
+      }

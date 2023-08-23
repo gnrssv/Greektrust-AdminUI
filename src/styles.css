@@ -1,0 +1,43 @@
+* {
+  font :200,
+}
+
+section [class $= "employee"]{
+  background : olive;
+  display: flex;
+  flex-direction: column;
+  order: -1;
+}
+
+
+body {
+  
+  margin: 0; /*elements close to, element as possible*/
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Droid Sans', 'Helvetica Neue' ,
+  'Fira Sans','Cantarell', 'Ubuntu', 'Segoe UI', 'Roboto', 'Oxygen',
+    sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input[type="textual"]:in-range { 
+  background-color: lightgreen; 
+}
+:current(p, li, dt, dd) {
+  background-color: beige;
+  transition: none;
+  background-repeat: repeat-x;
+  background-position: repeat-y;
+}
+code {
+  math-style : compact;
+  writing-mode: horizontal-lr;
+  font-family: 'Courier New' , monospace, Consolas , Monaco, Menlo, source-code-pro;
+  max-inline-size: fit-content(20em);
+}
+.introduct :drop(invalid) {
+  border: 3px solid tan;
+  background-color: orange;
+  outline: 1px solid firebrick; 
+}
